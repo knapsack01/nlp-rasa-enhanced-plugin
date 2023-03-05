@@ -97,3 +97,15 @@ public class RasaBotMillContext {
 	 */
 	public void setup(String serverUrl, String token) {
 		rasaConfig.setHost(serverUrl);
+		rasaConfig.setToken(token);
+	}
+	
+	/**
+	 * Gets the rasa config.
+	 *
+	 * @return the rasa config
+	 */
+	public static RasaConnectionConfig getRasaConfig() {
+		return rasaConfig;
+	}
+}
