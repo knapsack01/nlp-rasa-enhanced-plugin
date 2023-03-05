@@ -28,3 +28,16 @@ package co.aurasphere.botmill.rasa;
 
 
 /**
+ * The Enum Emulate.
+ */
+public enum Emulate {
+	
+	/** The rasa nlu. */
+	RASA_NLU,
+	
+	/** The witai. */
+	WITAI,
+	
+	/** The apiai. */
+	APIAI,
+}
