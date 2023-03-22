@@ -31,4 +31,12 @@ package co.aurasphere.botmill.rasa.builder;
  */
 public class QueryBuilder {
 	
-	/** The query.
+	/** The query. */
+	private String query;
+
+	/**
+	 * Gets the query.
+	 *
+	 * @return the query
+	 */
+	public Str
