@@ -23,4 +23,12 @@
  * SOFTWARE.
  * 
  */
-package co.aurasphere.botmill.rasa.b
+package co.aurasphere.botmill.rasa.builder;
+
+
+/**
+ * The Class QueryBuilder.
+ */
+public class QueryBuilder {
+	
+	/** The query.
