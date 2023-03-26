@@ -39,4 +39,12 @@ public class QueryBuilder {
 	 *
 	 * @return the query
 	 */
-	public Str
+	public String getQuery() {
+		return query;
+	}
+
+	/**
+	 * Sets the query.
+	 *
+	 * @param query the new query
+	
