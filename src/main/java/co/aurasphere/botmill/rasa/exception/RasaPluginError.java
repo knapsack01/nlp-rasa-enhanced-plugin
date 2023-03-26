@@ -113,3 +113,30 @@ public class RasaPluginError implements Serializable {
 	/**
 	 * Sets the {@link #code}.
 	 *
+	 * @param code
+	 *            the {@link #code} to set.
+	 */
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	/**
+	 * Gets the {@link #fbTraceId}.
+	 *
+	 * @return the {@link #fbTraceId}.
+	 */
+	public String getFbTraceId() {
+		return fbTraceId;
+	}
+
+	/**
+	 * Sets the {@link #fbTraceId}.
+	 *
+	 * @param fbTraceId
+	 *            the {@link #fbTraceId} to set.
+	 */
+	public void setFbTraceId(String fbTraceId) {
+		this.fbTraceId = fbTraceId;
+	}
+
+}
