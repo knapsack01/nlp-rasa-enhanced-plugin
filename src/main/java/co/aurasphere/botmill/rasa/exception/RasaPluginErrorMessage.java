@@ -32,4 +32,9 @@ import java.io.Serializable;
 /**
  * Message which contains a {@link RasaPluginError}.
  * 
- * @a
+ * @author Alvin P. Reyes
+ */
+public class RasaPluginErrorMessage implements Serializable {
+
+	/**
+	 * 
