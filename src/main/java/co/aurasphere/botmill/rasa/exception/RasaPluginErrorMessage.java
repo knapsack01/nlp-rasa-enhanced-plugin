@@ -25,4 +25,11 @@
  */
 package co.aurasphere.botmill.rasa.exception;
 
-i
+import java.io.Serializable;
+
+
+
+/**
+ * Message which contains a {@link RasaPluginError}.
+ * 
+ * @a
