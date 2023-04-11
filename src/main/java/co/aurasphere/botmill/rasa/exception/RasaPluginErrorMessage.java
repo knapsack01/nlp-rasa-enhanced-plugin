@@ -37,4 +37,10 @@ import java.io.Serializable;
 public class RasaPluginErrorMessage implements Serializable {
 
 	/**
-	 * 
+	 * The serial version UID.
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * The error from Facebook.
+	
