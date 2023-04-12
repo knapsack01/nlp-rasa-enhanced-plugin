@@ -43,4 +43,10 @@ public class RasaPluginErrorMessage implements Serializable {
 
 	/**
 	 * The error from Facebook.
-	
+	 */
+	private RasaPluginError error;
+
+	/**
+	 * Gets the {@link #error}.
+	 *
+	 * @return the {@link 
