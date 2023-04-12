@@ -49,4 +49,11 @@ public class RasaPluginErrorMessage implements Serializable {
 	/**
 	 * Gets the {@link #error}.
 	 *
-	 * @return the {@link 
+	 * @return the {@link #error}.
+	 */
+	public RasaPluginError getError() {
+		return error;
+	}
+
+	/**
+	 * Sets the {@lin
