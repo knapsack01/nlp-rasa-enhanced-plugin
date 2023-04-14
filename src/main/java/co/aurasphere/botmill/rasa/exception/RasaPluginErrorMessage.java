@@ -56,4 +56,9 @@ public class RasaPluginErrorMessage implements Serializable {
 	}
 
 	/**
-	 * Sets the {@lin
+	 * Sets the {@link #error}.
+	 *
+	 * @param error
+	 *            the {@link #error} to set.
+	 */
+	public void setErro
