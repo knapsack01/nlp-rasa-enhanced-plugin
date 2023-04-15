@@ -7,4 +7,9 @@ public class DucklingTimeEntityValue extends RasaEntityValue{
 	@SerializedName("from")
 	private String from;
 	@SerializedName("to")
-	private 
+	private String to;
+	public String getFrom() {
+		return from;
+	}
+	public void setFrom(String from) {
+		this.fro
