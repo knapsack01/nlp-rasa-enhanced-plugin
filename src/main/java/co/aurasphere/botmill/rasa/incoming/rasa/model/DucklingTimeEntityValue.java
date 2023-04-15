@@ -12,4 +12,10 @@ public class DucklingTimeEntityValue extends RasaEntityValue{
 		return from;
 	}
 	public void setFrom(String from) {
-		this.fro
+		this.from = from;
+	}
+	public String getTo() {
+		return to;
+	}
+	public void setTo(String to) {
+		this.to = to
