@@ -18,4 +18,8 @@ public class DucklingTimeEntityValue extends RasaEntityValue{
 		return to;
 	}
 	public void setTo(String to) {
-		this.to = to
+		this.to = to;
+	}
+	
+	
+}
