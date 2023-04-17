@@ -87,3 +87,57 @@ public class Entity implements Serializable {
 	
 	/**
 	 * Sets the end.
+	 *
+	 * @param end the new end
+	 */
+	public void setEnd(String end) {
+		this.end = end;
+	}
+	
+	public String getDuckling() {
+		return duckling;
+	}
+
+	public void setDuckling(String duckling) {
+		this.duckling = duckling;
+	}
+
+	/**
+	 * Gets the value.
+	 *
+	 * @return the value
+	 */
+	public Object getValue() {
+		return value;
+	}
+	
+	/**
+	 * Sets the value.
+	 *
+	 * @param value the new value
+	 */
+	public void setValue(RasaEntityValue value) {
+		this.value = value;
+	}
+	
+	/**
+	 * Gets the entity.
+	 *
+	 * @return the entity
+	 */
+	public String getEntity() {
+		return entity;
+	}
+	
+	/**
+	 * Sets the entity.
+	 *
+	 * @param entity the new entity
+	 */
+	public void setEntity(String entity) {
+		this.entity = entity;
+	}
+	
+	
+	
+}
