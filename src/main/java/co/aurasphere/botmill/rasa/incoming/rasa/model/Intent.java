@@ -3,4 +3,9 @@ package co.aurasphere.botmill.rasa.incoming.rasa.model;
 public class Intent {
 	
 	private String confidence;
-	private String nam
+	private String name;
+	public String getConfidence() {
+		return confidence;
+	}
+	public void setConfidence(String confidence) {
+		
