@@ -13,4 +13,9 @@ public class Intent {
 	public String getName() {
 		return name;
 	}
-	public void setName(S
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}
