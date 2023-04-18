@@ -8,4 +8,9 @@ public class Intent {
 		return confidence;
 	}
 	public void setConfidence(String confidence) {
-		
+		this.confidence = confidence;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(S
