@@ -10,4 +10,8 @@ public abstract class RasaEntityValue {
 		if(stringValue != null) {
 			return stringValue.replaceAll("^\"|\"$", "");
 		}
-		retu
+		return stringValue;
+	}
+
+	public void setStringValue(String stringValue) {
+		this.stringValue = 
