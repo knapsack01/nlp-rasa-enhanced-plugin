@@ -14,4 +14,6 @@ public abstract class RasaEntityValue {
 	}
 
 	public void setStringValue(String stringValue) {
-		this.stringValue = 
+		this.stringValue = stringValue;
+	}
+}
