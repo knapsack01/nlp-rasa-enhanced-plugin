@@ -7,4 +7,6 @@ public class StringEntityValue extends RasaEntityValue{
 	@SerializedName("value")
 	private String stringValue;
 
-	pu
+	public String getStringValue() {
+		if(stringValue != null) {
+			return stringValue.replaceAll("^\"|
