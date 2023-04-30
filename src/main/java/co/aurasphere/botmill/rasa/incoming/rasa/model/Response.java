@@ -87,3 +87,65 @@ public class Response implements Serializable {
 	 */
 	public void setEntities(List<Entity> entity) {
 		this.entities = entity;
+	}
+
+	/**
+	 * Gets the intent.
+	 *
+	 * @return the intent
+	 */
+	public Intent getIntent() {
+		return intent;
+	}
+
+	/**
+	 * Sets the intent.
+	 *
+	 * @param intent
+	 *            the new intent
+	 */
+	public void setIntent(Intent intent) {
+		this.intent = intent;
+	}
+	
+	public StringEntityValue searchForStringEntityValue(String value) {
+		// if (entityName instanceof JsonPrimitive) {
+		for (Entity ent : this.getEntities()) {
+			if (ent.getEntity().equals(value)) {
+				if (ent.getValue() instanceof StringEntityValue) {
+					return ((StringEntityValue) ent.getValue());
+				}
+			}
+		}
+		return null;
+	}
+	
+	public RasaEntityValue searchForDucklingValue(String value) {
+		for (Entity ent : this.getEntities()) {
+			if (ent.getEntity().equals(value)) {
+				if (ent.getValue() instanceof DucklingTimeEntityValue && ent.getDuckling() != null) {
+					return ((DucklingTimeEntityValue) ent.getValue());
+				}else if(ent.getValue() instanceof StringEntityValue && ent.getDuckling() != null) {
+					return ((StringEntityValue) ent.getValue());
+				}
+			}
+		}
+		return null;
+	}
+	
+	public List<RasaEntityValue> searchForDucklingValues(String value) {
+		List<RasaEntityValue> values = new ArrayList<RasaEntityValue>();
+		for (Entity ent : this.getEntities()) {
+			if (ent.getEntity().equals(value)) {
+				if (ent.getValue() instanceof DucklingTimeEntityValue && ent.getDuckling() != null) {
+					values.add((DucklingTimeEntityValue) ent.getValue());
+				}else if(ent.getValue() instanceof StringEntityValue && ent.getDuckling() != null) {
+					values.add((StringEntityValue) ent.getValue());
+				}
+			}
+		}
+		return values;
+	}
+
+
+}
