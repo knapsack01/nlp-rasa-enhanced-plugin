@@ -9,4 +9,9 @@ public class StringEntityValue extends RasaEntityValue{
 
 	public String getStringValue() {
 		if(stringValue != null) {
-			return stringValue.replaceAll("^\"|
+			return stringValue.replaceAll("^\"|\"$", "");
+		}
+		return stringValue;
+	}
+
+	public void setStringValue(String stringValue) {
