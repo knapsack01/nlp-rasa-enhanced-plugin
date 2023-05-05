@@ -15,3 +15,7 @@ public class StringEntityValue extends RasaEntityValue{
 	}
 
 	public void setStringValue(String stringValue) {
+		this.stringValue = stringValue;
+	}
+	
+}
