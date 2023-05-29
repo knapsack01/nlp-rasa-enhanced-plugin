@@ -1,3 +1,4 @@
+
 /**
  * 
  * MIT License
@@ -23,34 +24,21 @@
  * SOFTWARE.
  * 
  */
-package co.aurasphere.botmill.rasa.incoming.rasa.model;
+package co.aurasphere.botmill.rasa.outgoing.model;
+
+import java.io.Serializable;
+
+import com.google.gson.annotations.SerializedName;
 
 
 /**
- * The Class TrainingResponse.
+ * The Class Query.
  */
-public class TrainingResponse {
-	
-	/** The info. */
-	private String info;
+public class Query implements Serializable {
 
-	/**
-	 * Gets the info.
-	 *
-	 * @return the info
-	 */
-	public String getInfo() {
-		return info;
-	}
-
-	/**
-	 * Sets the info.
-	 *
-	 * @param info the new info
-	 */
-	public void setInfo(String info) {
-		this.info = info;
-	}
+	/** The Constant serialVersionUID. */
+	private static final long serialVersionUID = 1L;
 	
-	
-}
+	/** The query. */
+	@SerializedName("q")
+	private String query;
