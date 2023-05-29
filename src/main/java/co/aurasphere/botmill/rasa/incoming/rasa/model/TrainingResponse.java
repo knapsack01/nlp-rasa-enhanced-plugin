@@ -32,4 +32,12 @@ package co.aurasphere.botmill.rasa.incoming.rasa.model;
 public class TrainingResponse {
 	
 	/** The info. */
-	private String in
+	private String info;
+
+	/**
+	 * Gets the info.
+	 *
+	 * @return the info
+	 */
+	public String getInfo() {
+		ret
