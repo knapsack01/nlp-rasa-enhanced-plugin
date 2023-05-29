@@ -77,3 +77,60 @@ public class RasaConnectionConfig implements Serializable {
 	}
 	
 	/**
+	 * Sets the host.
+	 *
+	 * @param host the new host
+	 */
+	public void setHost(String host) {
+		this.host = host;
+	}
+	
+	/**
+	 * Gets the port.
+	 *
+	 * @return the port
+	 */
+	public String getPort() {
+		return port;
+	}
+	
+	/**
+	 * Sets the port.
+	 *
+	 * @param port the new port
+	 */
+	public void setPort(String port) {
+		this.port = port;
+	}
+	
+	/**
+	 * Gets the token.
+	 *
+	 * @return the token
+	 */
+	public String getToken() {
+		return token;
+	}
+	
+	/**
+	 * Sets the token.
+	 *
+	 * @param token the new token
+	 */
+	public void setToken(String token) {
+		this.token = token;
+	}
+	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		if(port == null || protocol == null) {
+			return this.host;
+		}else {
+			return this.protocol + this.host + this.port;
+		}
+	}
+	
+}
