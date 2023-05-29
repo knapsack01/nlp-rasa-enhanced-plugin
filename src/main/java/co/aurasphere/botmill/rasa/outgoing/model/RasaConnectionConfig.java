@@ -28,38 +28,52 @@ package co.aurasphere.botmill.rasa.outgoing.model;
 
 import java.io.Serializable;
 
-import com.google.gson.annotations.SerializedName;
-
 
 /**
- * The Class Query.
+ * The Class RasaConnectionConfig.
  */
-public class Query implements Serializable {
-
+public class RasaConnectionConfig implements Serializable {
+	
 	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1L;
 	
-	/** The query. */
-	@SerializedName("q")
-	private String query;
-
+	/** The protocol. */
+	private String protocol;
+	
+	/** The host. */
+	private String host;
+	
+	/** The port. */
+	private String port;
+	
+	/** The token. */
+	private String token;
+	
 	/**
-	 * Gets the query.
+	 * Gets the protocol.
 	 *
-	 * @return the query
+	 * @return the protocol
 	 */
-	public String getQuery() {
-		return query;
-	}
-
-	/**
-	 * Sets the query.
-	 *
-	 * @param query the new query
-	 */
-	public void setQuery(String query) {
-		this.query = query;
+	public String getProtocol() {
+		return protocol;
 	}
 	
+	/**
+	 * Sets the protocol.
+	 *
+	 * @param protocol the new protocol
+	 */
+	public void setProtocol(String protocol) {
+		this.protocol = protocol;
+	}
 	
-}
+	/**
+	 * Gets the host.
+	 *
+	 * @return the host
+	 */
+	public String getHost() {
+		return host;
+	}
+	
+	/**
