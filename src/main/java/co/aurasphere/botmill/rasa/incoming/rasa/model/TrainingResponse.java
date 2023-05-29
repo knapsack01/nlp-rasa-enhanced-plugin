@@ -27,4 +27,9 @@ package co.aurasphere.botmill.rasa.incoming.rasa.model;
 
 
 /**
- * The Cl
+ * The Class TrainingResponse.
+ */
+public class TrainingResponse {
+	
+	/** The info. */
+	private String in
