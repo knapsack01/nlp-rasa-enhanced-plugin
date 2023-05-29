@@ -40,4 +40,12 @@ public class TrainingResponse {
 	 * @return the info
 	 */
 	public String getInfo() {
-		ret
+		return info;
+	}
+
+	/**
+	 * Sets the info.
+	 *
+	 * @param info the new info
+	 */
+	public void setInf
