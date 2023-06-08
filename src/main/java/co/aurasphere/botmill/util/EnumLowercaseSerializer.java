@@ -28,4 +28,12 @@ package co.aurasphere.botmill.util;
 import java.lang.reflect.Type;
 
 import com.google.gson.JsonElement;
-import com.google.gson.JsonSerializationContext
+import com.google.gson.JsonSerializationContext;
+import com.google.gson.JsonSerializer;
+
+
+
+/**
+ * The Class EnumLowercaseSerializer.
+ */
+public c
