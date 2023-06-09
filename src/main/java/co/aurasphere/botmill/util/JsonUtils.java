@@ -1,3 +1,4 @@
+
 /**
  * 
  * MIT License
@@ -25,26 +26,43 @@
  */
 package co.aurasphere.botmill.util;
 
-import java.lang.reflect.Type;
 
-import com.google.gson.JsonElement;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import co.aurasphere.botmill.rasa.incoming.rasa.model.Entity;
+
 
 
 
 /**
- * The Class EnumLowercaseSerializer.
+ * Utility class for handling JSON serialization and deserialization.
+ * 
+ * @author Alvin P. Reyes
+ * 
  */
-public class EnumLowercaseSerializer implements JsonSerializer<Enum<?>> {
+public class JsonUtils {
 
-	/* (non-Javadoc)
-	 * @see com.google.gson.JsonSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+	/**
+	 * Gson which handles the JSON conversion.
 	 */
-	public JsonElement serialize(Enum<?> src, Type typeOfSrc, JsonSerializationContext context) {
-		//lower case and convert "_" into '-';
-		String source = src.name().replace('_', '-');
-		return context.serialize(source.toLowerCase());
-	}
+	private static Gson gson;
 
-}
+	/**
+	 * Initializes the current Gson object if null and returns it. The Gson
+	 * object has custom adapters to manage datatypes according to Facebook
+	 * formats.
+	 * 
+	 * @return the current instance of Gson.
+	 */
+	public static Gson getGson() {
+		if (gson == null) {
+			// Creates the Gson object which will manage the information
+			// received
+			GsonBuilder builder = new GsonBuilder();
+			// Serializes enums as lower-case.
+			builder.registerTypeHierarchyAdapter(Enum.class, new EnumLowercaseSerializer());
+			builder.registerTypeAdapter(Entity.class,new EntityValueDeserializer());
+			gson = builder.create();
+		}
