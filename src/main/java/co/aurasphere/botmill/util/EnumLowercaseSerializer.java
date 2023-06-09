@@ -36,4 +36,7 @@ import com.google.gson.JsonSerializer;
 /**
  * The Class EnumLowercaseSerializer.
  */
-public c
+public class EnumLowercaseSerializer implements JsonSerializer<Enum<?>> {
+
+	/* (non-Javadoc)
+	 * @see com.google.
