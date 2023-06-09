@@ -42,4 +42,6 @@ public class EnumLowercaseSerializer implements JsonSerializer<Enum<?>> {
 	 * @see com.google.gson.JsonSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
 	 */
 	public JsonElement serialize(Enum<?> src, Type typeOfSrc, JsonSerializationContext context) {
-		//
+		//lower case and convert "_" into '-';
+		String source = src.name().replace('_', '-');
+		return cont
