@@ -66,3 +66,38 @@ public class JsonUtils {
 			builder.registerTypeAdapter(Entity.class,new EntityValueDeserializer());
 			gson = builder.create();
 		}
+		return gson;
+	}
+
+	/**
+	 * From json.
+	 *
+	 * @param <T>
+	 *            the generic type
+	 * @param json
+	 *            the string from which the object is to be deserialized.
+	 * @param T
+	 *            the type of the desired object.
+	 * @return an object of type T from the string. Returns null if json is
+	 *         null.
+	 * @see Gson#fromJson(String, Class)
+	 */
+	public static <T> T fromJson(String json, Class<T> T) {
+		return getGson().fromJson(json, T);
+	}
+
+	/**
+	 * To json.
+	 *
+	 * @param src
+	 *            the object for which Json representation is to be created
+	 *            setting for Gson .
+	 * @return Json representation of src.
+	 * @see Gson#toJson(Object)
+	 */
+	public static String toJson(Object src) {
+		return getGson().toJson(src);
+	}
+	
+
+}
