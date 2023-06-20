@@ -28,4 +28,9 @@ package co.aurasphere.botmill.util;
 
 
 /**
- * The C
+ * The Class NetworkConstants.
+ */
+public class NetworkConstants {
+	
+	/** The Constant PRASE_EP. */
+	public static final Strin
