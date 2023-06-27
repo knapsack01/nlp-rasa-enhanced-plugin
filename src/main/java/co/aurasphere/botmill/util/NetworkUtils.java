@@ -23,4 +23,8 @@
  * SOFTWARE.
  * 
  */
-package co.aurasphere.botmil
+package co.aurasphere.botmill.util;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.ByteArrayOutp
