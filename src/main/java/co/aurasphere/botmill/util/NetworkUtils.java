@@ -61,4 +61,10 @@ public class NetworkUtils {
 	/**
 	 * The logger.
 	 */
-	private static final Logger logger = Lo
+	private static final Logger logger = LoggerFactory.getLogger(NetworkUtils.class);
+
+	/**
+	 * Post json config.
+	 *
+	 * @param input
+	 *            the
