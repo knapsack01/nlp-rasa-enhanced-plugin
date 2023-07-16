@@ -67,4 +67,8 @@ public class NetworkUtils {
 	 * Post json config.
 	 *
 	 * @param input
-	 *            the
+	 *            the input
+	 * @return the string
+	 */
+	public static String postParse(Object input) {
+		StringEn
