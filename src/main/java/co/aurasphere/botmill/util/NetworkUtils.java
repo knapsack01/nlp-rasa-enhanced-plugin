@@ -71,4 +71,5 @@ public class NetworkUtils {
 	 * @return the string
 	 */
 	public static String postParse(Object input) {
-		StringEn
+		StringEntity stringEntity = toStringEntity(input);
+		HttpPost post = new HttpPost(RasaBotMillContext.getRasaConf
