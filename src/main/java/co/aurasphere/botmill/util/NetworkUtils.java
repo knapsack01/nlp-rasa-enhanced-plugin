@@ -73,4 +73,12 @@ public class NetworkUtils {
 	public static String postParse(Object input) {
 		StringEntity stringEntity = toStringEntity(input);
 		HttpPost post = new HttpPost(RasaBotMillContext.getRasaConfig().toString() + NetworkConstants.PRASE_EP + concatToken());
-		post.setHeader("Content-Type", "app
+		post.setHeader("Content-Type", "application/json");
+		post.setEntity(stringEntity);
+		return send(post);
+	}
+
+	/**
+	 * Post json message.
+	 *
+	
