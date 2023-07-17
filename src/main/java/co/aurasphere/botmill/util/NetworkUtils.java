@@ -72,4 +72,5 @@ public class NetworkUtils {
 	 */
 	public static String postParse(Object input) {
 		StringEntity stringEntity = toStringEntity(input);
-		HttpPost post = new HttpPost(RasaBotMillContext.getRasaConf
+		HttpPost post = new HttpPost(RasaBotMillContext.getRasaConfig().toString() + NetworkConstants.PRASE_EP + concatToken());
+		post.setHeader("Content-Type", "app
