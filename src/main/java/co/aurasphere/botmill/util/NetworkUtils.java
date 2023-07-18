@@ -87,4 +87,6 @@ public class NetworkUtils {
 	public static String postTrainingString(String jsonData) {
 		StringEntity stringEntity;
 		try {
-			stringEntity = new StringEntity(jsonData)
+			stringEntity = new StringEntity(jsonData);
+			stringEntity.setContentType("application/json");
+			HttpPost post = new HttpPost(RasaBotMillContext.g
