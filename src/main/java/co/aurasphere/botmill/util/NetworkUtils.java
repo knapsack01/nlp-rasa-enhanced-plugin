@@ -91,4 +91,8 @@ public class NetworkUtils {
 			stringEntity.setContentType("application/json");
 			HttpPost post = new HttpPost(RasaBotMillContext.getRasaConfig().toString() + NetworkConstants.TRAIN_EP + concatToken());
 			post.setEntity(stringEntity);
-			return se
+			return send(post);
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
