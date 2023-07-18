@@ -104,4 +104,5 @@ public class NetworkUtils {
 	 *
 	 * @return the string
 	 */
-	public sta
+	public static String getStatus() {
+		HttpGet get = new HttpGet(RasaBotMillContext.getRasaConfig().toString()  + Net
