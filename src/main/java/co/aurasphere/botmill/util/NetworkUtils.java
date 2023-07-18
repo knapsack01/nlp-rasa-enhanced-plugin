@@ -84,4 +84,7 @@ public class NetworkUtils {
 	 * @param jsonData the json data
 	 * @return the string
 	 */
-	public static String postTrainingString(
+	public static String postTrainingString(String jsonData) {
+		StringEntity stringEntity;
+		try {
+			stringEntity = new StringEntity(jsonData)
