@@ -89,4 +89,6 @@ public class NetworkUtils {
 		try {
 			stringEntity = new StringEntity(jsonData);
 			stringEntity.setContentType("application/json");
-			HttpPost post = new HttpPost(RasaBotMillContext.g
+			HttpPost post = new HttpPost(RasaBotMillContext.getRasaConfig().toString() + NetworkConstants.TRAIN_EP + concatToken());
+			post.setEntity(stringEntity);
+			return se
