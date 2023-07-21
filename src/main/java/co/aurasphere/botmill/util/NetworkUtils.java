@@ -115,4 +115,8 @@ public class NetworkUtils {
 	 *
 	 * @param request
 	 *            the request
-	 * @return t
+	 * @return the string
+	 */
+	private static String send(HttpRequestBase request) {
+
+		CloseableHttpClient httpClient
