@@ -107,4 +107,12 @@ public class NetworkUtils {
 	public static String getStatus() {
 		HttpGet get = new HttpGet(RasaBotMillContext.getRasaConfig().toString()  + NetworkConstants.STATUS_EP + concatToken());
 		get.setHeader("Content-Type", "application/json");
-		return send
+		return send(get);
+	}
+
+	/**
+	 * Send.
+	 *
+	 * @param request
+	 *            the request
+	 * @return t
