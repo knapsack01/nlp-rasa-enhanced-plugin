@@ -119,4 +119,7 @@ public class NetworkUtils {
 	 */
 	private static String send(HttpRequestBase request) {
 
-		CloseableHttpClient httpClient
+		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
+
+		logger.debug(request.getRequestLine().toString());
+		HttpRespons
