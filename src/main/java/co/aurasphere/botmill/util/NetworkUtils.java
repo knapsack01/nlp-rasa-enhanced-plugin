@@ -128,4 +128,8 @@ public class NetworkUtils {
 			httpResponse = httpClient.execute(request);
 			response = logResponse(httpResponse);
 		} catch (Exception e) {
-			logger.error("Error
+			logger.error("Error during HTTP connection to RASA: ", e);
+		} finally {
+			try {
+				httpClient.close();
+			} catch (IOException e)
