@@ -125,4 +125,7 @@ public class NetworkUtils {
 		HttpResponse httpResponse = null;
 		String response = null;
 		try {
-			httpResponse = httpClient.execute(r
+			httpResponse = httpClient.execute(request);
+			response = logResponse(httpResponse);
+		} catch (Exception e) {
+			logger.error("Error
