@@ -122,4 +122,7 @@ public class NetworkUtils {
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
 		logger.debug(request.getRequestLine().toString());
-		HttpRespons
+		HttpResponse httpResponse = null;
+		String response = null;
+		try {
+			httpResponse = httpClient.execute(r
