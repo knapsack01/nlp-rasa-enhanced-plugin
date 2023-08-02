@@ -132,4 +132,10 @@ public class NetworkUtils {
 		} finally {
 			try {
 				httpClient.close();
-			} catch (IOException e)
+			} catch (IOException e) {
+				logger.error("Error while closing HTTP connection: ", e);
+			}
+		}
+		return response;
+	}
+
