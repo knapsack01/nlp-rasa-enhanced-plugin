@@ -155,4 +155,8 @@ public class NetworkUtils {
 	 *
 	 * @param url
 	 *            the url
-	 *
+	 * @param entity
+	 *            the entity
+	 * @return the string
+	 */
+	public static String post(String ur
