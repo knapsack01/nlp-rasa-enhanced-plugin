@@ -159,4 +159,6 @@ public class NetworkUtils {
 	 *            the entity
 	 * @return the string
 	 */
-	public static String post(String ur
+	public static String post(String url, StringEntity entity) {
+		HttpPost post = new HttpPost(url);
+		post.setHeader("Content-Type", "application/x-
