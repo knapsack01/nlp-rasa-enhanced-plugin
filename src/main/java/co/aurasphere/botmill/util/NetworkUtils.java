@@ -143,4 +143,7 @@ public class NetworkUtils {
 	 * DELETEs a JSON string to Facebook.
 	 * 
 	 * @param input
-	 *            the JSON dat
+	 *            the JSON data to send.
+	 */
+	public static void delete(Object input) {
+		StringEntity stringEntity = toStringEntity(
