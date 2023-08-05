@@ -139,3 +139,8 @@ public class NetworkUtils {
 		return response;
 	}
 
+	/**
+	 * DELETEs a JSON string to Facebook.
+	 * 
+	 * @param input
+	 *            the JSON dat
