@@ -175,4 +175,11 @@ public class NetworkUtils {
 	 */
 	public static String get(String url) {
 		HttpGet get = new HttpGet(url);
-		return send(ge
+		return send(get);
+	}
+
+	/**
+	 * To string entity.
+	 *
+	 * @param object
+	 *            the obje
