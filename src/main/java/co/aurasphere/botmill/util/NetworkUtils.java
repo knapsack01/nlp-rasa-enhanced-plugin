@@ -161,4 +161,10 @@ public class NetworkUtils {
 	 */
 	public static String post(String url, StringEntity entity) {
 		HttpPost post = new HttpPost(url);
-		post.setHeader("Content-Type", "application/x-
+		post.setHeader("Content-Type", "application/x-www-form-urlencoded");
+		post.setEntity(entity);
+		return send(post);
+	}
+
+	/**
+	 * Utility to send a GET requ
