@@ -167,4 +167,8 @@ public class NetworkUtils {
 	}
 
 	/**
-	 * Utility to send a GET requ
+	 * Utility to send a GET request.
+	 * 
+	 * @param url
+	 *            the url we need to send the get request to.
+	 * @return {@link St
