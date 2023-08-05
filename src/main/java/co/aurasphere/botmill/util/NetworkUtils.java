@@ -171,4 +171,8 @@ public class NetworkUtils {
 	 * 
 	 * @param url
 	 *            the url we need to send the get request to.
-	 * @return {@link St
+	 * @return {@link String}
+	 */
+	public static String get(String url) {
+		HttpGet get = new HttpGet(url);
+		return send(ge
