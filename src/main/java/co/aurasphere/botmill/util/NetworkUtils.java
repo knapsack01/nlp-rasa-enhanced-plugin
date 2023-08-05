@@ -146,4 +146,13 @@ public class NetworkUtils {
 	 *            the JSON data to send.
 	 */
 	public static void delete(Object input) {
-		StringEntity stringEntity = toStringEntity(
+		StringEntity stringEntity = toStringEntity(input);
+		delete(stringEntity);
+	}
+
+	/**
+	 * Post.
+	 *
+	 * @param url
+	 *            the url
+	 *
