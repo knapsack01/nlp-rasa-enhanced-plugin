@@ -186,4 +186,7 @@ public class NetworkUtils {
 	 * @return the string entity
 	 */
 	private static StringEntity toStringEntity(Object object) {
-		St
+		StringEntity input = null;
+		try {
+			String json = JsonUtils.toJson(object);
+			input = new StringEntity(json);
