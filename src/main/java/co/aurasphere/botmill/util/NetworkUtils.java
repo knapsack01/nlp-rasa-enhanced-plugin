@@ -182,4 +182,8 @@ public class NetworkUtils {
 	 * To string entity.
 	 *
 	 * @param object
-	 *            the obje
+	 *            the object
+	 * @return the string entity
+	 */
+	private static StringEntity toStringEntity(Object object) {
+		St
