@@ -190,3 +190,5 @@ public class NetworkUtils {
 		try {
 			String json = JsonUtils.toJson(object);
 			input = new StringEntity(json);
+			input.setContentType("application/json");
+			logger.debug("Request: {}", inputStreamToString(inpu
