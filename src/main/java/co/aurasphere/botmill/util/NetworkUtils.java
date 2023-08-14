@@ -207,4 +207,5 @@ public class NetworkUtils {
 	 * @throws IOException
 	 *             Signals that an I/O exception has occurred.
 	 */
-	private static 
+	private static String inputStreamToString(InputStream stream) throws IOException {
+		ByteArrayOutputStream result = ne
