@@ -204,4 +204,7 @@ public class NetworkUtils {
 	 * @param stream
 	 *            the InputStream to convert.
 	 * @return a String with the InputStream content.
-	 * @
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
+	private static 
