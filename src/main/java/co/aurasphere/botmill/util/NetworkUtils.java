@@ -195,3 +195,10 @@ public class NetworkUtils {
 		} catch (Exception e) {
 			logger.error("Error during JSON message creation: ", e);
 		}
+		return input;
+	}
+
+	/**
+	 * Utility method which converts an InputStream to a String.
+	 *
+	 * @param strea
