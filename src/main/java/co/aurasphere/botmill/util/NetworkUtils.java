@@ -201,4 +201,7 @@ public class NetworkUtils {
 	/**
 	 * Utility method which converts an InputStream to a String.
 	 *
-	 * @param strea
+	 * @param stream
+	 *            the InputStream to convert.
+	 * @return a String with the InputStream content.
+	 * @
