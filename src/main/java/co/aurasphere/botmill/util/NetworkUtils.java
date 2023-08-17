@@ -208,4 +208,7 @@ public class NetworkUtils {
 	 *             Signals that an I/O exception has occurred.
 	 */
 	private static String inputStreamToString(InputStream stream) throws IOException {
-		ByteArrayOutputStream result = ne
+		ByteArrayOutputStream result = new ByteArrayOutputStream();
+		byte[] buffer = new byte[1024];
+		int length;
+		String resultString 
