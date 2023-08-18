@@ -232,4 +232,6 @@ public class NetworkUtils {
 		int statusCode = response.getStatusLine().getStatusCode();
 
 		// Logs the raw JSON for debug purposes.
-		String output = getResponseContent(
+		String output = getResponseContent(response);
+		logger.debug("HTTP Status Code: {}", statusCode);
+		logger.debug("Response: {}", output
