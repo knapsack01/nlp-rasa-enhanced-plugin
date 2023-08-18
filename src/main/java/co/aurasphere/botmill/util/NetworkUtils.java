@@ -211,4 +211,8 @@ public class NetworkUtils {
 		ByteArrayOutputStream result = new ByteArrayOutputStream();
 		byte[] buffer = new byte[1024];
 		int length;
-		String resultString 
+		String resultString = null;
+		while ((length = stream.read(buffer)) != -1) {
+			result.write(buffer, 0, length);
+		}
+		resultString
