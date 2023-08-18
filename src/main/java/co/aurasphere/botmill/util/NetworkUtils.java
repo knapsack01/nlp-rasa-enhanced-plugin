@@ -229,4 +229,7 @@ public class NetworkUtils {
 	 *             Signals that an I/O exception has occurred.
 	 */
 	private static String logResponse(HttpResponse response) throws IOException {
-		int statusCode = response.getStatusLine().ge
+		int statusCode = response.getStatusLine().getStatusCode();
+
+		// Logs the raw JSON for debug purposes.
+		String output = getResponseContent(
