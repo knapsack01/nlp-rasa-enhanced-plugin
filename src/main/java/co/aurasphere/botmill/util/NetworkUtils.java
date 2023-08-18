@@ -222,4 +222,7 @@ public class NetworkUtils {
 	/**
 	 * Logs the response before returning it.
 	 *
-	 *
+	 * @param response
+	 *            the response to log.
+	 * @return the string
+	 * @throws 
