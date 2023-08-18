@@ -225,4 +225,7 @@ public class NetworkUtils {
 	 * @param response
 	 *            the response to log.
 	 * @return the string
-	 * @throws 
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
+	private static String logRe
