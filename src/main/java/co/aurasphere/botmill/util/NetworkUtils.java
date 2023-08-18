@@ -215,4 +215,11 @@ public class NetworkUtils {
 		while ((length = stream.read(buffer)) != -1) {
 			result.write(buffer, 0, length);
 		}
-		resultString
+		resultString = result.toString("UTF-8");
+		return resultString;
+	}
+
+	/**
+	 * Logs the response before returning it.
+	 *
+	 *
