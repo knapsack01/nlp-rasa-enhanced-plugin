@@ -228,4 +228,5 @@ public class NetworkUtils {
 	 * @throws IOException
 	 *             Signals that an I/O exception has occurred.
 	 */
-	private static String logRe
+	private static String logResponse(HttpResponse response) throws IOException {
+		int statusCode = response.getStatusLine().ge
