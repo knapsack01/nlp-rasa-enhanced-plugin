@@ -237,4 +237,7 @@ public class NetworkUtils {
 		logger.debug("Response: {}", output);
 
 		if (statusCode >= 400) {
-			logger.error("HTTP connection failed with error code {}.", statu
+			logger.error("HTTP connection failed with error code {}.", statusCode);
+
+			// Parses the error message and logs it.
+			RasaPluginErrorMessage errorMessage = JsonUtils.fromJs
