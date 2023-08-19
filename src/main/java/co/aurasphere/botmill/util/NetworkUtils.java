@@ -234,4 +234,7 @@ public class NetworkUtils {
 		// Logs the raw JSON for debug purposes.
 		String output = getResponseContent(response);
 		logger.debug("HTTP Status Code: {}", statusCode);
-		logger.debug("Response: {}", output
+		logger.debug("Response: {}", output);
+
+		if (statusCode >= 400) {
+			logger.error("HTTP connection failed with error code {}.", statu
