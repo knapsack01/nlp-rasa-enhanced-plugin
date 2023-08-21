@@ -242,4 +242,5 @@ public class NetworkUtils {
 			// Parses the error message and logs it.
 			RasaPluginErrorMessage errorMessage = JsonUtils.fromJson(output, RasaPluginErrorMessage.class);
 			RasaPluginError error = errorMessage.getError();
-			logger.e
+			logger.error("Error message from Kik. Message: [{}], Code: [{}], Type: [{}], FbTraceID: [{}].",
+					er
