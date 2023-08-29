@@ -245,4 +245,11 @@ public class NetworkUtils {
 			logger.error("Error message from Kik. Message: [{}], Code: [{}], Type: [{}], FbTraceID: [{}].",
 					error.getMessage(), error.getCode(), error.getType(), error.getFbTraceId());
 		}
-		return output
+		return output;
+	}
+
+	/**
+	 * Utility method that converts an HttpResponse to a String.
+	 *
+	 * @param response
+	 *            t
