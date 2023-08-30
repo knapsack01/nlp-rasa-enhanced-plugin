@@ -257,4 +257,5 @@ public class NetworkUtils {
 	 * @throws IOException
 	 *             Signals that an I/O exception has occurred.
 	 */
-	private static String getResponseConten
+	private static String getResponseContent(HttpResponse response) throws IOException {
+		InputStream inputStream = response.getEntity().getContent();
