@@ -252,4 +252,7 @@ public class NetworkUtils {
 	 * Utility method that converts an HttpResponse to a String.
 	 *
 	 * @param response
-	 *            t
+	 *            the response to convert.
+	 * @return a String with the response content.
+	 * @throws IOException
+	 *
