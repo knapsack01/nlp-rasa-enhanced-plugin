@@ -255,4 +255,6 @@ public class NetworkUtils {
 	 *            the response to convert.
 	 * @return a String with the response content.
 	 * @throws IOException
-	 *
+	 *             Signals that an I/O exception has occurred.
+	 */
+	private static String getResponseConten
