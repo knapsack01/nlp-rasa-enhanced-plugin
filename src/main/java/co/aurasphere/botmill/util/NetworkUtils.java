@@ -260,4 +260,5 @@ public class NetworkUtils {
 	private static String getResponseContent(HttpResponse response) throws IOException {
 		InputStream inputStream = response.getEntity().getContent();
 		BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
-		InputStreamReade
+		InputStreamReader inputStreamReader = new InputStreamReader(bufferedInputStream);
+		BufferedReader br = new BufferedRea
