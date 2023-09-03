@@ -261,4 +261,7 @@ public class NetworkUtils {
 		InputStream inputStream = response.getEntity().getContent();
 		BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
 		InputStreamReader inputStreamReader = new InputStreamReader(bufferedInputStream);
-		BufferedReader br = new BufferedRea
+		BufferedReader br = new BufferedReader(inputStreamReader);
+		StringBuilder builder = new StringBuilder();
+		String output = null;
+		while 
