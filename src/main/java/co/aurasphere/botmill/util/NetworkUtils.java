@@ -264,4 +264,11 @@ public class NetworkUtils {
 		BufferedReader br = new BufferedReader(inputStreamReader);
 		StringBuilder builder = new StringBuilder();
 		String output = null;
-		while 
+		while ((output = br.readLine()) != null) {
+			builder.append(output);
+		}
+		return builder.toString();
+	}
+	
+	/**
+	 * 
