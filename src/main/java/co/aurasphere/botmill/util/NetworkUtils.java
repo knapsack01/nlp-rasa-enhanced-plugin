@@ -277,4 +277,10 @@ public class NetworkUtils {
 	 */
 	private static String concatToken() {
 		if(RasaBotMillContext.getRasaConfig().getToken() != null) {
-			return "?token="+RasaBotMillContext.getRasaConfig().get
+			return "?token="+RasaBotMillContext.getRasaConfig().getToken();
+		}else {
+			return "";
+		}
+	}
+
+}
