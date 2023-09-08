@@ -271,4 +271,9 @@ public class NetworkUtils {
 	}
 	
 	/**
-	 * 
+	 * Concat token.
+	 *
+	 * @return the string
+	 */
+	private static String concatToken() {
+		if(RasaBotM
