@@ -276,4 +276,5 @@ public class NetworkUtils {
 	 * @return the string
 	 */
 	private static String concatToken() {
-		if(RasaBotM
+		if(RasaBotMillContext.getRasaConfig().getToken() != null) {
+			return "?token="+RasaBotMillContext.getRasaConfig().get
