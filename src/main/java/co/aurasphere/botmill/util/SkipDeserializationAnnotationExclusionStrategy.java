@@ -26,4 +26,10 @@ package co.aurasphere.botmill.util;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 
-public class SkipDeserializationAnnotat
+public class SkipDeserializationAnnotationExclusionStrategy implements
+		ExclusionStrategy {
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.
