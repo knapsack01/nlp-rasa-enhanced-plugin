@@ -35,4 +35,9 @@ public class SkipDeserializationAnnotationExclusionStrategy implements
 	 * @see com.google.gson.ExclusionStrategy#shouldSkipField(com.google.gson.
 	 * FieldAttributes)
 	 */
-	public boolean shouldS
+	public boolean shouldSkipField(FieldAttributes f) {
+		return f.getAnnotation(SkipDeserialization.class) != null;
+	}
+
+	/*
+	 * (non
