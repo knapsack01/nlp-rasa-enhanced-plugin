@@ -44,4 +44,11 @@ public class SkipDeserializationAnnotationExclusionStrategy implements
 	 * 
 	 * @see com.google.gson.ExclusionStrategy#shouldSkipClass(java.lang.Class)
 	 */
-	pub
+	public boolean shouldSkipClass(Class<?> clazz) {
+		return false;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.l
