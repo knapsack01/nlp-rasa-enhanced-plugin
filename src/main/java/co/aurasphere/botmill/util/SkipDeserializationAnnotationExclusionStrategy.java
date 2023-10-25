@@ -51,4 +51,8 @@ public class SkipDeserializationAnnotationExclusionStrategy implements
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see java.l
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "SkipDeserializationA
