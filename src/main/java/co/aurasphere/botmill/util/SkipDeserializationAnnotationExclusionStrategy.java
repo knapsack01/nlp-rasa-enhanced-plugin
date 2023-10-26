@@ -55,4 +55,6 @@ public class SkipDeserializationAnnotationExclusionStrategy implements
 	 */
 	@Override
 	public String toString() {
-		return "SkipDeserializationA
+		return "SkipDeserializationAnnotationExclusionStrategy []";
+	}
+}
