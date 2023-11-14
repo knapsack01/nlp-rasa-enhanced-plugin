@@ -41,4 +41,6 @@ import com.google.gson.JsonIOException;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
-import com.google.gson.int
+import com.google.gson.internal.LinkedTreeMap;
+
+import co.aurasphere.botmill.rasa.incoming.rasa.model.DucklingTimeEntityValue;
