@@ -47,4 +47,9 @@ import co.aurasphere.botmill.rasa.incoming.rasa.model.DucklingTimeEntityValue;
 import co.aurasphere.botmill.rasa.incoming.rasa.model.Response;
 import co.aurasphere.botmill.rasa.incoming.rasa.model.StringEntityValue;
 import co.aurasphere.botmill.rasa.service.RasaService;
-import co.aurasphere.b
+import co.aurasphere.botmill.util.JsonUtils;
+
+/**
+ * The Class RasaBotMillServiceTest.
+ */
+public class RasaBo
