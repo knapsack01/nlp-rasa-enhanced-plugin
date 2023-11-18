@@ -52,4 +52,11 @@ import co.aurasphere.botmill.util.JsonUtils;
 /**
  * The Class RasaBotMillServiceTest.
  */
-public class RasaBo
+public class RasaBotMillServiceTest {
+
+	/**
+	 * Setup.
+	 */
+	@Before
+	public void setup() {
+		RasaBotMillCon
