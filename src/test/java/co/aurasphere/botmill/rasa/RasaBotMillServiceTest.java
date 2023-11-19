@@ -66,4 +66,7 @@ public class RasaBotMillServiceTest {
 	 * Test parse.
 	 */
 	@Test
-	@I
+	@Ignore
+	public void testParse() {
+		if (checkConnection()) {
+			Response resp = RasaService.sendParseReque
