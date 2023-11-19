@@ -59,4 +59,11 @@ public class RasaBotMillServiceTest {
 	 */
 	@Before
 	public void setup() {
-		RasaBotMillCon
+		RasaBotMillContext.configure().setup("http://<RASA_SERVER>:5001","<TOKEN>");
+	}
+
+	/**
+	 * Test parse.
+	 */
+	@Test
+	@I
