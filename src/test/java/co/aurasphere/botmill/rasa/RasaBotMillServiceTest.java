@@ -79,4 +79,6 @@ public class RasaBotMillServiceTest {
 	
 	@Test
 	@Ignore
-	public void testParseCompl
+	public void testParseComplexDate() {
+		if (checkConnection()) {
+			Response resp = RasaService.sendParseRequest("can you setup request fro
