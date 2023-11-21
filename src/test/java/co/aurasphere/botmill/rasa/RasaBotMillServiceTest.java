@@ -71,4 +71,12 @@ public class RasaBotMillServiceTest {
 		if (checkConnection()) {
 			Response resp = RasaService.sendParseRequest("CYYZ KJFK 15JUL2017 20JUN2017");
 			resp.searchForDucklingValue("time");
-			System.out.println(resp
+			System.out.println(resp.getText());
+			assertNotNull(resp);
+		}
+		assert (true);
+	}
+	
+	@Test
+	@Ignore
+	public void testParseCompl
