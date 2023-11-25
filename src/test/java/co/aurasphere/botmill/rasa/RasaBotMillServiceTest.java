@@ -85,4 +85,6 @@ public class RasaBotMillServiceTest {
 			System.out.println(resp.searchForStringEntityValue("departure_icao").getStringValue());
 			System.out.println(((DucklingTimeEntityValue)resp.searchForDucklingValue("start_date")).getTo());
 			System.out.println(((DucklingTimeEntityValue)resp.searchForDucklingValue("end_date")).getFrom());
-			System.out.println(resp.searchForStringEntityValue("arrival_icao").getStrin
+			System.out.println(resp.searchForStringEntityValue("arrival_icao").getStringValue());
+			
+			Response resp1 = RasaService.sendParseRequest("uggw cyyz from tomorrow
