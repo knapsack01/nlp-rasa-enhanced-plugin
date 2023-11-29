@@ -94,4 +94,5 @@ public class RasaBotMillServiceTest {
 			//System.out.println(resp1.searchForStringEntityValue("arrival_icao").getStringValue());
 			
 			Response resp2 = RasaService.sendParseRequest("tomorrow?");
-			//System.out.println(resp2.searchF
+			//System.out.println(resp2.searchForStringEntityValue("departure_icao").getStringValue());
+			System.out.printl
