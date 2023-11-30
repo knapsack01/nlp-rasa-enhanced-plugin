@@ -96,4 +96,7 @@ public class RasaBotMillServiceTest {
 			Response resp2 = RasaService.sendParseRequest("tomorrow?");
 			//System.out.println(resp2.searchForStringEntityValue("departure_icao").getStringValue());
 			System.out.println(((StringEntityValue)resp2.searchForDucklingValue("start_date")).getStringValue());
-			//System.out.println(res
+			//System.out.println(resp2.searchForStringEntityValue("arrival_icao").getStringValue());
+			assertNotNull(resp);
+		}
+		assert (true
