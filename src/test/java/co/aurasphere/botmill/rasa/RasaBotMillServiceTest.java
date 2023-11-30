@@ -99,4 +99,11 @@ public class RasaBotMillServiceTest {
 			//System.out.println(resp2.searchForStringEntityValue("arrival_icao").getStringValue());
 			assertNotNull(resp);
 		}
-		assert (true
+		assert (true);
+	}
+	
+	/**
+	 * Test train string.
+	 */
+	@Test
+	@Ignore // only run train test if necessary. This is an expensive pr
