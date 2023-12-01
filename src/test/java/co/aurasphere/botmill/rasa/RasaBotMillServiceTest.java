@@ -106,4 +106,8 @@ public class RasaBotMillServiceTest {
 	 * Test train string.
 	 */
 	@Test
-	@Ignore // only run train test if necessary. This is an expensive pr
+	@Ignore // only run train test if necessary. This is an expensive process.
+	public void testTrainString() {
+
+		if (checkConnection()) {
+			JsonParser parser
