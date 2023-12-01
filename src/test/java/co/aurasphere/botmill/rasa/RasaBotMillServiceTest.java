@@ -110,4 +110,7 @@ public class RasaBotMillServiceTest {
 	public void testTrainString() {
 
 		if (checkConnection()) {
-			JsonParser parser
+			JsonParser parser = new JsonParser();
+			Object obj;
+			try {
+				obj = parser.parse(new FileReader("src/
