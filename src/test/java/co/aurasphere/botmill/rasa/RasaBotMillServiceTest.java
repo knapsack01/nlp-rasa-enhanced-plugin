@@ -113,4 +113,6 @@ public class RasaBotMillServiceTest {
 			JsonParser parser = new JsonParser();
 			Object obj;
 			try {
-				obj = parser.parse(new FileReader("src/
+				obj = parser.parse(new FileReader("src/test/resources/training.json"));
+				JsonObject jsonObject = (JsonObject) obj;
+				System.out.prin
