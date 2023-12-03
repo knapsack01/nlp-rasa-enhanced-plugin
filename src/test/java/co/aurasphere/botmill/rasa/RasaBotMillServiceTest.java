@@ -117,4 +117,11 @@ public class RasaBotMillServiceTest {
 				JsonObject jsonObject = (JsonObject) obj;
 				System.out.println(jsonObject.toString());
 				RasaService.sendTrainRequest(jsonObject.toString());
-			} catch (Exception e
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		checkConnection();
+		
