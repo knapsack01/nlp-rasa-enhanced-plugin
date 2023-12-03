@@ -115,4 +115,6 @@ public class RasaBotMillServiceTest {
 			try {
 				obj = parser.parse(new FileReader("src/test/resources/training.json"));
 				JsonObject jsonObject = (JsonObject) obj;
-				System.out.prin
+				System.out.println(jsonObject.toString());
+				RasaService.sendTrainRequest(jsonObject.toString());
+			} catch (Exception e
