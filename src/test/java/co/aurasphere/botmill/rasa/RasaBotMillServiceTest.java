@@ -124,4 +124,11 @@ public class RasaBotMillServiceTest {
 			
 		}
 		checkConnection();
-		
+		assert (true);
+	}
+	
+	/**
+	 * Test train file.
+	 */
+	@Test
+	@Ignore // only run train test if necessary. Thi
