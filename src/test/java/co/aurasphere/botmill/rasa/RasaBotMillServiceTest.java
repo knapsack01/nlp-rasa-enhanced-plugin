@@ -131,4 +131,7 @@ public class RasaBotMillServiceTest {
 	 * Test train file.
 	 */
 	@Test
-	@Ignore // only run train test if necessary. Thi
+	@Ignore // only run train test if necessary. This is an expensive process.
+	public void testTrainFile() {
+
+		if (checkConnection()) {
