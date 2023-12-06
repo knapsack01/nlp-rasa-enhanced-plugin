@@ -135,3 +135,6 @@ public class RasaBotMillServiceTest {
 	public void testTrainFile() {
 
 		if (checkConnection()) {
+			try {
+				RasaService.sendTrainFileRequest(new File("src/test/resources/training.json"));
+			} catch (Exception e
