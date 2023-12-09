@@ -152,4 +152,6 @@ public class RasaBotMillServiceTest {
 	 *
 	 * @return true, if successful
 	 */
-	pr
+	private boolean checkConnection() {
+		Response status = RasaService.getStatus();
+		if (status == null) {
