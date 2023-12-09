@@ -144,3 +144,12 @@ public class RasaBotMillServiceTest {
 			
 		}
 		checkConnection();
+		assert (true);
+	}
+
+	/**
+	 * Check connection.
+	 *
+	 * @return true, if successful
+	 */
+	pr
