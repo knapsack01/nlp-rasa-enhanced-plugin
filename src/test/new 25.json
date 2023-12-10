@@ -1,0 +1,68 @@
+
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+     {
+        "text": "musta ka na?", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "i'm looking for a place to eat", 
+        "intent": "restaurant_search", 
+        "entities": []
+      }, 
+      {
+        "text": "i'm looking for a place in the north of town", 
+        "intent": "restaurant_search", 
+        "entities": [
+          {
+            "start": 31,
+            "end": 36, 
+            "value": "north", 
+            "entity": "location"
+          }
+        ]
+      }, 
+      {
+        "text": "show me chinese restaurants", 
+        "intent": "restaurant_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 15, 
+            "value": "chinese", 
+            "entity": "cuisine"
+          }
+        ]
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
