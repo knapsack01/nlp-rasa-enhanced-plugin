@@ -178,3 +178,98 @@
       }, 
       {
         "text": "ok", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm", 
+        "entities": []
+      }
+    ], 
+    "intent_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "i'm looking for a place to eat", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "i'm looking for a place in the north of town", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "show me chinese restaurants", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "show me a mexican place in the centre", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "i am looking for an indian spot", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "search for restaurants", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "anywhere in the west", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "central indian restaurant", 
+        "intent": "restaurant_search"
+      }, 
+      {
