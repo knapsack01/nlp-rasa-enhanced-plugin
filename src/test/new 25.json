@@ -273,3 +273,21 @@
         "intent": "restaurant_search"
       }, 
       {
+        "text": "indeed", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm"
+      }
+    ]
+  }
+}
