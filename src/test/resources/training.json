@@ -2,4 +2,9 @@
   "rasa_nlu_data": {
     "entity_examples": [
       {
-        "text": "must
+        "text": "musta ka na?", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "
