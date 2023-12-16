@@ -7,4 +7,9 @@
         "entities": []
       }, 
       {
-        "text": "
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text":
