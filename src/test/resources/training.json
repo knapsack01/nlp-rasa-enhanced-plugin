@@ -18,4 +18,9 @@
       }, 
       {
         "text": "hey there", 
-   
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "int
