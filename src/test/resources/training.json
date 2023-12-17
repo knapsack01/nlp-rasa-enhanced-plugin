@@ -12,4 +12,10 @@
         "entities": []
       }, 
       {
-        "text":
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+   
