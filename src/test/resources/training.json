@@ -29,4 +29,8 @@
       {
         "text": "hi", 
         "intent": "greet", 
-        "ent
+        "entities": []
+      }, 
+      {
+        "text": "i'm looking for a place to eat", 
+        "intent": "restaurant_sear
