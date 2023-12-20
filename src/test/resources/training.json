@@ -33,4 +33,8 @@
       }, 
       {
         "text": "i'm looking for a place to eat", 
-        "intent": "restaurant_sear
+        "intent": "restaurant_search", 
+        "entities": []
+      }, 
+      {
+        "text": "i'm looking for a place i
