@@ -41,3 +41,8 @@
         "intent": "restaurant_search", 
         "entities": [
           {
+            "start": 31,
+            "end": 36, 
+            "value": "north", 
+            "entity": "location"
+        
