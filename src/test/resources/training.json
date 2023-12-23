@@ -37,4 +37,7 @@
         "entities": []
       }, 
       {
-        "text": "i'm looking for a place i
+        "text": "i'm looking for a place in the north of town", 
+        "intent": "restaurant_search", 
+        "entities": [
+          {
