@@ -45,4 +45,9 @@
             "end": 36, 
             "value": "north", 
             "entity": "location"
-        
+          }
+        ]
+      }, 
+      {
+        "text": "show me chinese restaurants", 
+  
