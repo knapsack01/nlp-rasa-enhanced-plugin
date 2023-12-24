@@ -50,4 +50,8 @@
       }, 
       {
         "text": "show me chinese restaurants", 
-  
+        "intent": "restaurant_search", 
+        "entities": [
+          {
+            "start": 8, 
+        
