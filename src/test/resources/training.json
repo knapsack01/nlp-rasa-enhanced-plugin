@@ -54,4 +54,7 @@
         "entities": [
           {
             "start": 8, 
-        
+            "end": 15, 
+            "value": "chinese", 
+            "entity": "cuisine"
+          
