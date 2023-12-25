@@ -57,4 +57,10 @@
             "end": 15, 
             "value": "chinese", 
             "entity": "cuisine"
-          
+          }
+        ]
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "enti
