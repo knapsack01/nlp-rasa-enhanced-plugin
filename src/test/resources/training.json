@@ -63,4 +63,9 @@
       {
         "text": "yes", 
         "intent": "affirm", 
-        "enti
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entiti
