@@ -78,3 +78,9 @@
       {
         "text": "show me a mexican place in the centre", 
         "intent": "restaurant_search", 
+        "entities": [
+          {
+            "start": 31, 
+            "end": 37, 
+            "value": "centre", 
+       
