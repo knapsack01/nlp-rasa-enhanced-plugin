@@ -87,4 +87,8 @@
           }, 
           {
             "start": 10, 
-            "
+            "end": 17, 
+            "value": "mexican", 
+            "entity": "cuisine"
+          }
+        ]
