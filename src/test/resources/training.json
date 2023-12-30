@@ -92,3 +92,8 @@
             "entity": "cuisine"
           }
         ]
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entiti
