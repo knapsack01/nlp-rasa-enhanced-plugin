@@ -101,4 +101,8 @@
       {
         "text": "goodbye", 
         "intent": "goodbye", 
-   
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+    
