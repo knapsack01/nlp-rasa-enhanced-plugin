@@ -96,4 +96,9 @@
       {
         "text": "bye", 
         "intent": "goodbye", 
-        "entiti
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+   
