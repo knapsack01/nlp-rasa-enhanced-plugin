@@ -105,4 +105,8 @@
       }, 
       {
         "text": "good bye", 
-    
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop",
