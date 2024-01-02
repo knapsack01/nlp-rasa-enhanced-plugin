@@ -109,4 +109,10 @@
         "entities": []
       }, 
       {
-        "text": "stop",
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+ 
