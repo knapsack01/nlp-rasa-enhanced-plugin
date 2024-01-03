@@ -115,4 +115,8 @@
       }, 
       {
         "text": "end", 
- 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "i am looking
