@@ -119,4 +119,6 @@
         "entities": []
       }, 
       {
-        "text": "i am looking
+        "text": "i am looking for an indian spot", 
+        "intent": "restaurant_search", 
+        "entities": [ 
