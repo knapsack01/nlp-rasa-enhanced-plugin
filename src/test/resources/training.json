@@ -138,4 +138,8 @@
       {
         "text": "anywhere in the west", 
         "intent": "restaurant_search", 
-        "
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value":
