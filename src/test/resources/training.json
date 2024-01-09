@@ -148,4 +148,8 @@
         ]
       }, 
       {
-        "text
+        "text": "central indian restaurant", 
+        "intent": "restaurant_search", 
+        "entities": [
+          {
+ 
