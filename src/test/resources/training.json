@@ -142,4 +142,10 @@
           {
             "start": 16, 
             "end": 20, 
-            "value":
+            "value": "west", 
+            "entity": "location"
+          }
+        ]
+      }, 
+      {
+        "text
