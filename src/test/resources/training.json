@@ -155,4 +155,9 @@
             "start": 0, 
             "end": 7, 
             "value": "central", 
-            "entity": "lo
+            "entity": "location"
+          }, 
+          {
+            "start": 8, 
+            "end": 14, 
+            "value
