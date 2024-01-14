@@ -166,4 +166,10 @@
         ]
       }, 
       {
-        "text": "indeed"
+        "text": "indeed", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's right", 
+ 
