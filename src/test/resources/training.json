@@ -172,4 +172,9 @@
       }, 
       {
         "text": "that's right", 
- 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "ok", 
+        "
