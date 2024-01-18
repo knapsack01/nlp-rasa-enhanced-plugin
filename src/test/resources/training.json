@@ -177,4 +177,9 @@
       }, 
       {
         "text": "ok", 
-        "
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": 
