@@ -182,4 +182,10 @@
       }, 
       {
         "text": "great", 
-        "intent": 
+        "intent": "affirm", 
+        "entities": []
+      }
+    ], 
+    "intent_examples": [
+      {
+        "
