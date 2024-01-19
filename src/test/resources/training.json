@@ -188,4 +188,9 @@
     ], 
     "intent_examples": [
       {
-        "
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy", 
+       
