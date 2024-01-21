@@ -193,4 +193,8 @@
       }, 
       {
         "text": "howdy", 
-       
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet"
