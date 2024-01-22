@@ -204,4 +204,8 @@
         "intent": "greet"
       }, 
       {
-        "text": "hi
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "i'm looking for a place t
