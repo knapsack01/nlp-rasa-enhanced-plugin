@@ -198,3 +198,10 @@
       {
         "text": "hey there", 
         "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi
