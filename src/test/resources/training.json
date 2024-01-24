@@ -212,4 +212,8 @@
         "intent": "restaurant_search"
       }, 
       {
-        "text": "i'm loo
+        "text": "i'm looking for a place in the north of town", 
+        "intent": "restaurant_search"
+      }, 
+      {
+        "
