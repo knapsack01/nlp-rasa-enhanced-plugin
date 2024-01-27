@@ -216,4 +216,8 @@
         "intent": "restaurant_search"
       }, 
       {
-        "
+        "text": "show me chinese restaurants", 
+        "intent": "restaurant_search"
+      }, 
+      {
+  
