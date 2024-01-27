@@ -220,4 +220,9 @@
         "intent": "restaurant_search"
       }, 
       {
-  
+        "text": "yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yep", 
+ 
