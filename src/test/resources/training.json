@@ -240,4 +240,9 @@
         "intent": "goodbye"
       }, 
       {
-        "text": "goodb
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "good bye", 
+        "intent": 
