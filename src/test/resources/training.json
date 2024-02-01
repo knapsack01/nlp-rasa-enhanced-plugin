@@ -234,4 +234,10 @@
       {
         "text": "show me a mexican place in the centre", 
         "intent": "restaurant_search"
- 
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodb
