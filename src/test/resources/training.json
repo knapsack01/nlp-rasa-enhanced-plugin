@@ -245,4 +245,11 @@
       }, 
       {
         "text": "good bye", 
-        "intent": 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "end"
