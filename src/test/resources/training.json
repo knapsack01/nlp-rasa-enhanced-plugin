@@ -257,4 +257,8 @@
       }, 
       {
         "text": "i am looking for an indian spot", 
-        "in
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "search for restaurants", 
+  
