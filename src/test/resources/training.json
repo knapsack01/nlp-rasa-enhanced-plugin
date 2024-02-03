@@ -261,4 +261,8 @@
       }, 
       {
         "text": "search for restaurants", 
-  
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "anywhere in the west", 
+     
