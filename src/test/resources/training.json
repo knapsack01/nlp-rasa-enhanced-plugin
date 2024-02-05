@@ -265,4 +265,8 @@
       }, 
       {
         "text": "anywhere in the west", 
-     
+        "intent": "restaurant_search"
+      }, 
+      {
+        "text": "central indian restaurant", 
+   
