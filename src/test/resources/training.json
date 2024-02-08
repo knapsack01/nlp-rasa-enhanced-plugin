@@ -280,4 +280,10 @@
         "intent": "affirm"
       }, 
       {
-        "te
+        "text": "ok", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm"
+    
