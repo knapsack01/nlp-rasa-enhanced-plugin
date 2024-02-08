@@ -286,4 +286,7 @@
       {
         "text": "great", 
         "intent": "affirm"
-    
+      }
+    ]
+  }
+}
